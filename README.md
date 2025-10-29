@@ -1,7 +1,7 @@
 # wjdl_team_project
 售前与交付团队代码库
 # 克隆仓库到本地（替换仓库地址为实际URL，在仓库主页点击“Code”获取）
-`git clone https://github.com/你的用户名/team_project.git`
+`git clone https://github.com/你的用户名/wjdl_team_project.git`
 
 # 进入仓库目录
 `cd team_project`
