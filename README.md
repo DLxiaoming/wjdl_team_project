@@ -67,4 +67,4 @@ git checkout 你的分支名
 git fetch origin main
 
 # 合并主分支代码到自己的分支（解决冲突）
-git merge origin/main```
+git merge origin/main
