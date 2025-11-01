@@ -1,0 +1,75 @@
+{
+  "version": "3.3.0-beta",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tube",
+      "score": null,
+      "points": [
+        [
+          302.0,
+          437.0
+        ],
+        [
+          298.0,
+          441.0
+        ],
+        [
+          296.0,
+          446.0
+        ],
+        [
+          296.0,
+          451.0
+        ],
+        [
+          295.0,
+          452.0
+        ],
+        [
+          296.0,
+          453.0
+        ],
+        [
+          296.0,
+          459.0
+        ],
+        [
+          301.0,
+          464.0
+        ],
+        [
+          311.0,
+          464.0
+        ],
+        [
+          316.0,
+          459.0
+        ],
+        [
+          316.0,
+          448.0
+        ],
+        [
+          313.0,
+          442.0
+        ],
+        [
+          309.0,
+          438.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "photo_0051_20251030_175613_color.png",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

@@ -1,0 +1,72 @@
+root@orangepi5plus:/ros2 run tf2_tools view_frameses
+[INFO] [1757014936.398673765] [view_frames]: Listening to tf data for 5.0 seconds...
+[INFO] [1757014941.404686559] [view_frames]: Generating graph...
+[INFO] [1757014941.408043060] [view_frames]: Result:tf2_msgs.srv.FrameGraph_Response(
+    frame_yaml="
+    head_pitch_link: \n  parent: 'head_yaw_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    head_yaw_link: \n  parent: 'slide_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    slide_link: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    
+    left_arm_eef_G2_link1: \n  parent: 'left_arm_eef_G2_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    left_arm_eef_G2_base_link: \n  parent: 'left_arm_flange'\n  
+    
+
+    left_arm_eef_G2_link2: \n  parent: 'left_arm_eef_G2_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+
+    left_arm_eef_rotate_motor: \n  parent: 'left_arm_eef_G2_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    left_arm_link1: \n  parent: 'left_arm_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    left_arm_base_link: \n  parent: 'slide_link'\n  
+    
+    left_arm_link2: \n  parent: 'left_arm_link1'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    left_arm_link3: \n  parent: 'left_arm_link2'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    left_arm_link4: \n  parent: 'left_arm_link3'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    left_arm_link5: \n  parent: 'left_arm_link4'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    left_arm_link6: \n  parent: 'left_arm_link5'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    right_arm_eef_G2_link1: \n  parent: 'right_arm_eef_G2_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_eef_G2_base_link: \n  parent: 'right_arm_flange'\n  
+    
+    right_arm_eef_G2_link2: \n  parent: 'right_arm_eef_G2_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    
+    right_arm_eef_rotate_motor: \n  parent: 'right_arm_eef_G2_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_link1: \n  parent: 'right_arm_base_link'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_base_link: \n  parent: 'slide_link'\n  
+    right_arm_link2: \n  parent: 'right_arm_link1'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_link3: \n  parent: 'right_arm_link2'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_link4: \n  parent: 'right_arm_link3'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_link5: \n  parent: 'right_arm_link4'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    right_arm_link6: \n  parent: 'right_arm_link5'\n  broadcaster: 'default_authority'\n  rate: 19.143\n  most_recent_transform: 1757014941.400880\n  oldest_transform: 1757014936.385941\n  buffer_length: 5.015\n
+    base_link: \n  parent: 'world'\n  
+    
+    
+    
+    
+    
+    
+    
+    head_camera_color_frame: \n  parent: 'head_camera_link'\n  
+    head_camera_color_optical_frame: \n  parent: 'head_camera_color_frame'\n  
+
+    left_arm_flange: \n  parent: 'left_arm_link6'\n  
+    left_arm_end_link: \n  parent: 'left_arm_flange'\n  
+
+    left_wheel_link: \n  parent: 'base_link'\n  
+
+    right_arm_flange: \n  parent: 'right_arm_link6'\n  
+    right_arm_end_link: \n  parent: 'right_arm_flange'\n 
+
+    right_wheel_link: \n  parent: 'base_link'\n  
+
+    left_camera_color_frame: \n  parent: 'left_camera_link'\n  
+    left_camera_color_optical_frame: \n  parent: 'left_camera_color_frame'\n  ")
+[INFO] [1757014941.435313021] [view_frames]: Exporting graph in frames_2025-09-04_19.42.21.pdf file...
+root@orangepi5plus:/# 
+
